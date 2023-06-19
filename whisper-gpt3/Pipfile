@@ -1,0 +1,19 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+scipy = "*"
+torch = "*"
+numpy = "*"
+python-dotenv = "*"
+openai = "*"
+pyperclip = "*"
+openai-whisper = "*"
+sounddevice = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.10"
